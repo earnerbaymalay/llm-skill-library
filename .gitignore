@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credentials
+*.key
+*.pem
+*credentials*
+*secret*
+.env
+.env.local
+
+# Build/cache
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local exports (if large)
+*.zip
+*.tar.gz
